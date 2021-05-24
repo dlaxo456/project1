@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffecb3;
+  padding: 8px 12px;
+}
+.navbar > .area_popup_menu > span {
+    position: relative;
+    margin: 14px 0 0 0;
+    width: 40px;
+    height: 40px;
+    text-indent: -1000px;
+    overflow: hidden;
+    /* background: url(/images/pc/ico-sitemap.png) no-repeat 50%; */
+}
+div > .logo {
+  font-size: 24px;
+  color: white;
+}
+.logo > i{
+  color: #7d7155;
+}
